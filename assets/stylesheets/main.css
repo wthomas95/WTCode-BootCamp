@@ -1,0 +1,31 @@
+body{
+    background-image: url("https://i.imgur.com/2U6OatM.jpg"); /*adds background image*/
+    background-repeat: no-repeat; /*ensures that background isnt repeat of same image*/
+    background-attachment: fixed; /*ensures that background is static regardless of scroll*/
+    font-family: "Arial", Arial, sans-serif; /*changes font*/
+    color: rgb(255, 255, 153); /*changes font color*/
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; /*adds black border to text*/
+    font-size: 20px;
+}
+h1{
+    color: green;
+    text-shadow: 0 0 0 transparent, -2px 2 black, 2 2px black, 2px 2 black, 2 -2px black;
+    margin-bottom: 10px;
+}
+h2{
+    text-shadow: 0 0 0 transparent, -2px 2 black, 2 2px black, 2px 2 black, 2 -2px black;
+    margin-bottom: 10px;
+}
+img.ranger {
+    float: right;
+    width: 25%;
+}
+.p1{
+    margin-bottom: 50px;
+}
+ul {
+    list-style-type: disc;
+}
+li{
+    list-style-type: disc;
+}

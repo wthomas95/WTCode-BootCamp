@@ -8,24 +8,75 @@ body{
     font-size: 20px;
 }
 h1{
+    font-size: 50px;
     color: green;
     text-shadow: 0 0 0 transparent, -2px 2 black, 2 2px black, 2px 2 black, 2 -2px black;
     margin-bottom: 10px;
 }
 h2{
+    color: rgb(255, 145, 0);
     text-shadow: 0 0 0 transparent, -2px 2 black, 2 2px black, 2px 2 black, 2 -2px black;
     margin-bottom: 10px;
 }
-img.ranger {
-    float: right;
-    width: 25%;
+h3{
+    color: rgb(255, 145, 0);
+    text-shadow: 0 0 0 transparent, -2px 2 black, 2 2px black, 2px 2 black, 2 -2px black;
+    margin-bottom: 10px;
 }
-.p1{
+p.end{
     margin-bottom: 50px;
 }
-ul {
+ul{
     list-style-type: disc;
 }
 li{
     list-style-type: disc;
 }
+li.end1{
+    margin-bottom: 15px;
+}
+li.end{
+    margin-bottom: 30px;
+}
+li.under{
+    margin-top: 15px;
+}
+div.contacts{
+    float: right;
+    margin-top: 75px;
+    margin-right: 100px;
+    border: 6px solid #949599;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+}
+div.contacts.twitter{
+    text-shadow: 0 0 0 transparent;
+}
+img.gmail{
+width:40px;
+}
+img.twitter{
+width:40px;
+}
+img.linkedin{
+width:40px;
+}
+img.farnsworth{
+    width: 25%;
+}
+img.ranger {
+    float: left;
+    width: 15%;
+    margin-right: 20px;
+}
+img.ranger:hover{
+    transform:perspective(700px) rotateY(180deg);
+}
+img.wpp{
+    float: left;
+    width: 12%;
+    margin-right: 20px;
+}
+

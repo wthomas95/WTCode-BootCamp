@@ -1,27 +1,27 @@
 body{
-    background-image: url("https://i.imgur.com/2U6OatM.jpg"); /*adds background image*/
+    background-image: url("https://i.pinimg.com/originals/88/73/db/8873dbb8df3b0b60d0b80c0c118eea49.jpg"); /*adds background image*/
+    background-size: cover;
     background-repeat: no-repeat; /*ensures that background isnt repeat of same image*/
     background-attachment: fixed; /*ensures that background is static regardless of scroll*/
-    font-family: "Arial", Arial, sans-serif; /*changes font*/
-    color: rgb(255, 255, 153); /*changes font color*/
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; /*adds black border to text*/
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; /*changes font*/
+    color: rgb(103, 192, 130); /*changes font color*/
     font-size: 20px;
 }
 h1{
     font-size: 50px;
-    color: green;
-    text-shadow: 0 0 0 transparent, -2px 2 black, 2 2px black, 2px 2 black, 2 -2px black;
+    color: rgb(0,0,0);
     margin-bottom: 10px;
 }
 h2{
-    color: rgb(255, 145, 0);
-    text-shadow: 0 0 0 transparent, -2px 2 black, 2 2px black, 2px 2 black, 2 -2px black;
+    color: white;
     margin-bottom: 10px;
 }
 h3{
-    color: rgb(255, 145, 0);
-    text-shadow: 0 0 0 transparent, -2px 2 black, 2 2px black, 2px 2 black, 2 -2px black;
+    color: white;
     margin-bottom: 10px;
+}
+p{
+    color: white;
 }
 p.end{
     margin-bottom: 50px;
@@ -41,31 +41,109 @@ li.end{
 li.under{
     margin-top: 15px;
 }
+div.title{
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    border: 6px groove white;
+    height: 150px;
+    font-size: 25px;
+}
+/*For text in title to be centered: h1.titletxt: margin-top and margin-bottom should each be = div.title: height - (# of lines in title)x(h1.titletext) */
+h1.titletxt{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-size: 40px;
+    color: white;
+    font-weight: 900;
+}
+img.logo{
+    height: 130px;
+    width: auto;
+    float: left;
+    margin-right: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h2.Title2{
+    color: black;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+div.mainbody{
+    margin-left: 40px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-align: left;
+}
+
+h3.subCat{
+    font-weight: 600;
+}
+p.about{
+    margin-right: 200px;
+    margin-left: 45px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+p.goals{
+    margin-right: 200px;
+    margin-left: 45px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+div.txtGate{
+    text-align: center;
+    width: 134px;
+    float: right;
+    font-size: 12px;
+    margin-right: 40px;
+}
+
+.txtimg toriigate{
+    display: block;
+    margin: 0 auto;
+    margin-top: 2px;
+}
+img.toriigate{
+    width: 134px;
+    float: right;
+}
 div.contacts{
     float: right;
     margin-top: 75px;
     margin-right: 100px;
-    border: 6px solid #949599;
-    height: 200px;
+    border: 6px dashed white;
+    height: 150px;
     margin: 20px;
-    padding: 20px;
+    padding: 10px;
     width: 400px;
-}
-div.contacts.twitter{
-    text-shadow: 0 0 0 transparent;
+    text-align: left;
 }
 img.gmail{
-width:40px;
+    width: 25px;
+    float: left;
 }
 img.twitter{
-width:40px;
+    width:25px;
+    float: left;
 }
 img.linkedin{
-width:40px;
+    width:25px;
+    float: left;
 }
-img.farnsworth{
-    width: 25%;
+img.tech{
+    float: right;
+    margin-right: 40px;
+    width: 10%;
 }
+
+/* 
 img.ranger {
     float: left;
     width: 15%;
@@ -78,5 +156,21 @@ img.wpp{
     float: left;
     width: 12%;
     margin-right: 20px;
+} */
+div.txtborder
+{
+    text-shadow:
+    0 0 0 transparent,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 

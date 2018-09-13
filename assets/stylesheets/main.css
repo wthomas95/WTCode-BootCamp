@@ -79,7 +79,7 @@ div.mainbody{
     margin-right: 25px;
     margin-bottom: 10px;
     font-size: 25px;
-    text-align: left;
+    text-align: left;`
 }
 div.bodysec{
     margin-top: 75px;
@@ -171,5 +171,12 @@ div.txtborder
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;  
+}
+div.resources{
+    font-size: 10px;
+    float: left;
+    margin: 20px;
+    position: fixed;
+    bottom: 0;
 }
 

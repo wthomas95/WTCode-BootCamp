@@ -1,3 +1,6 @@
+/* ////////////////////// */
+/* background image specs */
+/* ////////////////////// */
 body{
     background-image: url("https://i.pinimg.com/originals/88/73/db/8873dbb8df3b0b60d0b80c0c118eea49.jpg"); /*adds background image*/
     background-size: cover;
@@ -7,6 +10,9 @@ body{
     color: rgb(103, 192, 130); /*changes font color*/
     font-size: 20px;
 }
+/* /////////////////////////////////////////// */
+/* fonts/colors for default paragraphs/headers */
+/* /////////////////////////////////////////// */
 h1{
     font-size: 50px;
     color: rgb(0,0,0);
@@ -23,6 +29,9 @@ h3{
 p{
     color: white;
 }
+/* /////////////////////////////////////////////////////////////////////////////// */
+/* more specific instructions for different classes, some unused list instructions */
+/* /////////////////////////////////////////////////////////////////////////////// */
 p.end{
     margin-bottom: 50px;
 }
@@ -39,56 +48,7 @@ li.end{
     margin-bottom: 30px;
 }
 li.under{
-    margin-top: 15px;
-}
-div.title{
-    margin-top: 10px;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 10px;
-    border: 6px groove white;
-    height: 150px;
-    font-size: 25px;
-}
-/*For text in title to be centered: h1.titletxt: margin-top and margin-bottom should each be = div.title: height - (# of lines in title)x(h1.titletext) */
-h1.titletxt{
-    margin-top: 35px;
-    margin-bottom: 35px;
-    font-size: 40px;
-    color: white;
-    font-weight: 900;
-}
-img.logo{
-    height: 130px;
-    width: auto;
-    float: left;
-    margin-right: 50px;
-    margin-left: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-h2.Title2{
-    color: black;
-    text-align: center;
-    font-weight: 600;
-    margin-bottom: 10px;
-
-}
-div.mainbody{
-    margin-left: 40px;
-    margin-right: 25px;
-    margin-bottom: 10px;
-    font-size: 25px;
-    text-align: left;`
-}
-div.bodysec{
-    margin-top: 75px;
-    margin-right: 100px;
-    height: 150px;
-    margin: 20px;
-    padding: 10px;
-    text-align: left;
-
+    margin-top: 15px;   
 }
 h3.subCat{
     font-weight: 600;
@@ -110,7 +70,47 @@ p.education{
     margin-left: 45px;
     font-size: 20px;
     margin-bottom: 30px;
-
+}
+h2.Title2{
+    color: black;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+/* /////////////////////////////////////////////// */
+/* specifications on positioning and some flourish */
+/* /////////////////////////////////////////////// */
+div.title{
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    border: 6px groove white;
+    height: 150px;
+    font-size: 25px;
+}
+/*For text in title to be centered: h1.titletxt: margin-top and margin-bottom should each be = div.title: height - (# of lines in title)x(h1.titletext) */
+h1.titletxt{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-size: 40px;
+    color: white;
+    font-weight: 900;
+}
+div.mainbody{
+    margin-left: 40px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-align: left;
+}
+div.bodysec{
+    margin-top: 75px;
+    margin-right: 100px;
+    height: 150px;
+    margin: 20px;
+    padding: 10px;
+    text-align: left;
 }
 div.txtGate{
     text-align: center;
@@ -119,8 +119,45 @@ div.txtGate{
     font-size: 12px;
     margin-right: 40px;
 }
-
-
+div.contacts{
+    float: right;
+    margin-top: 75px;
+    margin-right: 100px;
+    border: 6px dashed white;
+    height: 150px;
+    margin: 20px;
+    padding: 10px;
+    width: 400px;
+    text-align: left;
+}
+div.txtborder
+{
+    text-shadow:
+    0 0 0 transparent,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+div.resources{
+    font-size: 10px;
+    float: left;
+    margin: 20px;
+    position: fixed;
+    bottom: 0;
+}
+/* ///////////////////////// */
+/* image locations and sizes */
+/* //////////////////////////*/
+img.logo{
+    height: 130px;
+    width: auto;
+    float: left;
+    margin-right: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .txtimg toriigate{
     display: block;
     margin: 0 auto;
@@ -140,17 +177,6 @@ img.csharp{
     margin-right: 40px;
     width: 134px;
 }
-div.contacts{
-    float: right;
-    margin-top: 75px;
-    margin-right: 100px;
-    border: 6px dashed white;
-    height: 150px;
-    margin: 20px;
-    padding: 10px;
-    width: 400px;
-    text-align: left;
-}
 img.gmail{
     width: 25px;
     float: left;
@@ -163,20 +189,5 @@ img.linkedin{
     width:25px;
     float: left;
 }
-div.txtborder
-{
-    text-shadow:
-    0 0 0 transparent,
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;  
-}
-div.resources{
-    font-size: 10px;
-    float: left;
-    margin: 20px;
-    position: fixed;
-    bottom: 0;
-}
+
 

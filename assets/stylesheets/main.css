@@ -81,7 +81,15 @@ div.mainbody{
     font-size: 25px;
     text-align: left;
 }
+div.bodysec{
+    margin-top: 75px;
+    margin-right: 100px;
+    height: 150px;
+    margin: 20px;
+    padding: 10px;
+    text-align: left;
 
+}
 h3.subCat{
     font-weight: 600;
 }
@@ -97,6 +105,13 @@ p.goals{
     font-size: 20px;
     margin-bottom: 30px;
 }
+p.education{
+    margin-right: 200px;
+    margin-left: 45px;
+    font-size: 20px;
+    margin-bottom: 30px;
+
+}
 div.txtGate{
     text-align: center;
     width: 134px;
@@ -104,6 +119,7 @@ div.txtGate{
     font-size: 12px;
     margin-right: 40px;
 }
+
 
 .txtimg toriigate{
     display: block;
@@ -113,6 +129,16 @@ div.txtGate{
 img.toriigate{
     width: 134px;
     float: right;
+}
+img.tech{
+    float: right;
+    margin-right: 40px;
+    width: 134px;
+}
+img.csharp{
+    float: right;
+    margin-right: 40px;
+    width: 134px;
 }
 div.contacts{
     float: right;
@@ -137,26 +163,6 @@ img.linkedin{
     width:25px;
     float: left;
 }
-img.tech{
-    float: right;
-    margin-right: 40px;
-    width: 10%;
-}
-
-/* 
-img.ranger {
-    float: left;
-    width: 15%;
-    margin-right: 20px;
-}
-img.ranger:hover{
-    transform:perspective(700px) rotateY(180deg);
-}
-img.wpp{
-    float: left;
-    width: 12%;
-    margin-right: 20px;
-} */
 div.txtborder
 {
     text-shadow:
@@ -165,12 +171,5 @@ div.txtborder
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;  
-}
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
 }
 

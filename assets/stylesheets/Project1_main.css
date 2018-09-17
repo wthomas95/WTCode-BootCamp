@@ -112,6 +112,7 @@ div.bodysec{
     margin: 20px;
     padding: 10px;
     text-align: left;
+    margin-bottom: 50px;
 }
 div.txtGate{
     text-align: center;
@@ -122,8 +123,8 @@ div.txtGate{
 }
 div.contacts{
     float: right;
-    margin-top: 75px;
-    margin-right: 100px;
+    bottom: 0;
+    margin-top: 100px;
     border: 6px dashed white;
     height: 150px;
     margin: 20px;
@@ -177,6 +178,7 @@ img.csharp{
     float: right;
     margin-right: 40px;
     width: 134px;
+    margin-bottom: 10px;
 }
 img.gmail{
     width: 25px;
@@ -189,16 +191,4 @@ img.twitter{
 img.linkedin{
     width:25px;
     float: left;
-}
-button.button {
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    background-color: white;
-    color: black;
-    border: 2px solid rebeccapurple
 }

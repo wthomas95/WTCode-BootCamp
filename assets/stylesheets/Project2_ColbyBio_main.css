@@ -1,0 +1,45 @@
+*{
+    font-family: verdana;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(to bottom right, rgb(222, 209, 235), rebeccapurple);
+    background-size: cover;
+    background-repeat: no-repeat; /*ensures that background isnt repeat of same image*/
+    background-attachment: fixed; /*ensures that background is static regardless of scroll*/
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; /*changes font*/
+    font-size: 20px;
+}
+.head{
+    background-image: linear-gradient(to right, white, grey);
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    border: 6px groove rebeccapurple;
+    height: 216px;
+    font-size: 25px;
+}
+.logo{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+}
+.wrapper{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    height: 100px;
+    min-width: 100px;
+}
+.about{
+    background: linear-gradient(to right, green, greenyellow);
+    flex-grow: 1;
+}
